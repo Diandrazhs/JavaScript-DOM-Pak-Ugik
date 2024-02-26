@@ -1,0 +1,35 @@
+<html>
+<body>
+
+<h1>Dom JavaScript HTML</h1>
+<img id="image" src="https://i.pinimg.com/564x/65/3d/9a/653d9a70c6551ecacb1539938ed4ddc3.jpg" width="100" height="100">
+
+<!-- menambah properties -->
+<br>
+<br>
+<!-- <button id="zoomOut">zumot</button>
+<button id="zoomIn">zumin</button> -->
+
+<!-- menambah event -->
+<button id="zoomOut" onclick="fZoomOut()">Zoom Out</button>
+<button id="zoomIn" onclick="fZoomIn()">Zoom In</button>
+
+
+<script>
+const OImage = document.getElementById("image");
+Image.src ="https://i.pinimg.com/564x/65/3d/9a/653d9a70c6551ecacb1539938ed4ddc3.jpg";
+function fZoomIn(){
+    OImage.width = "500";
+    OImage.height = "500";
+    //alert("fZoomIn")
+}
+
+function fZoomOut(){
+    OImage.width = "400";
+    OImage.height = "400"
+    //alert("fZoomOut")
+}
+</script>
+
+</body>
+</html>
